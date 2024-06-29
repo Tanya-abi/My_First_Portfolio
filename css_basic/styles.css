@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: auto;
+    background: #feffdf;
 }
 
 main {
@@ -17,5 +18,16 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+    margin-bottom: 50px;
+}
+
+header {
+    background: #97cba9;
+}
+
+footer {
+    background: #97cba9;
+    padding: 35px 10px;
+    text-align: center;
 }
 
